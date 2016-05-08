@@ -19,7 +19,7 @@ def bottles_of_beer_on_wall(n)
 
 end
 
-def recursive_flatten(arr)
+def recursive_flatten(arr) # can combine with the_recursion, where pass in two arguments: the array to flatten and a zero
 	
 	i = 0
 	
