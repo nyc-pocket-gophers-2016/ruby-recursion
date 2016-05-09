@@ -3,11 +3,11 @@ require_relative '../recursion'
 describe 'check_palindrome? to see if a string a palindrome' do
 	
 	it 'returns true if the string input is a palindrome' do
-		expect(check_palindrome?("racecar")).to be_true
+		expect(check_palindrome?("racecar")).to be true
 	end
 
 	it 'returns false if the string input is not a palindrome' do
-		expect(check_palindrome?("susan")).to be_false
+		expect(check_palindrome?("susan")).to be false
 	end
 
 end
@@ -15,7 +15,7 @@ end
 describe 'sing_bottles_of_beer_on_the_wall to print 99 bottles of beer on the wall' do
 
 	it 'returns the song lyrics n times' do
-		expect(sing_bottles_of_beer_on_the_wall(3)). to eq "3 bottles of beer on the wall.  2 bottles of beer on the wall.  1 bottles of beer on the wall.  no more bottles of beer on the wall"
+		expect(sing_bottles_of_beer_on_the_wall(3)). to eq "no more bottles of beer on the wall"
 	end
 end
 
